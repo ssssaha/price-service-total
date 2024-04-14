@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: total-price-service
+server:
+  port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
